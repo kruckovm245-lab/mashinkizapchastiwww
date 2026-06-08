@@ -1,0 +1,218 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+	.top_line p{
+		display: none;
+	}
+	.top_line .menu{
+		margin-top: 25px;
+	}
+	.top_line .menu ul li a{
+		padding: 5px 10px;
+	}
+	.button{
+		padding: 12px 24px;
+	}
+	.top_line .button_wrap{
+		margin-top: 30px;
+	}
+	.sect4 .item_right{
+		margin-left: 0;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.menu{
+		display: none;
+	}
+	.top_line .button_wrap{
+		float: none;
+		text-align: center;
+	}
+	.top_line .menu{
+		position: absolute;
+		z-index: 50;
+		background-color: #fff;
+		width: 300px;
+		top: 63px;
+		right: 0;
+	}
+	.top_line .menu ul li{
+		display: block;
+		text-align: center;
+		border-bottom: 1px dashed #000;
+	}
+	.icon1_home_sect {
+    left: 1%;
+    top: 223px;
+	}
+	.icon3_home_sect {
+    right: 36%;
+    bottom: 140px;
+	}
+	.icon4_home_sect {
+    right: 12%;
+    top: 245px;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	.home_sect .title_wrap_home h1{
+		font-size: 17px;
+	}
+	.home_sect .title_wrap_home span{
+		font-size: 18px;
+	}
+	.icon1_home_sect, .icon2_home_sect, .icon3_home_sect, .icon4_home_sect{
+		display: none;
+	}
+	.home_sect .item_descr span{
+		margin-bottom: 15px;
+	}
+	.home_sect .title_wrap_home h1{
+		margin-bottom: 15px;
+	}
+	.home_sect .title_wrap_home span{
+		line-height: 20px;
+	}
+	.home_sect .title_wrap_home p{
+		margin-top: 8px;
+	}
+	#form3, .done{
+		width: 470px;
+	}
+	.owl-carousel .owl-controls .owl-buttons .owl-prev{
+		left: 0;
+	}
+	.owl-carousel .owl-controls .owl-buttons .owl-next{
+		right: 0;
+	}
+
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.logo_wrap img{
+		width: 100%;
+	}
+	.button{
+		font-size: 12px;
+		padding: 12px 9px;
+	}
+	.clearpadxs{
+		padding: 0;
+	}
+	.top_line .button_wrap{
+		margin-top: 19px;
+	}
+	.toggle-mnu{
+		margin: 27px auto 0;
+	}
+	.form_inline{
+		width: 300px;
+	}
+	.sect3{
+		line-height: 25px;
+	}
+	.sect4 .item__descr, .sect4 .item_right .item__descr{
+		width: 100%;
+	}
+	.sect4 .item__img{
+		display: block;
+		float: none;
+		text-align: center;
+	}
+	.title_wrap h2{
+		font-size: 25px;
+		line-height: 28px;
+	}
+	footer .contact_wrap{
+		width: 300px;
+		margin-left: -150px;
+	}
+	#form3, .done{
+		width: 300px;
+	}
+	#form3 .form3_wrap h3, #form3 .done_wrap h3, .done .form3_wrap h3, .done .done_wrap h3{
+		font-size: 27px;
+	}
+	#form3 .form3_wrap span, #form3 .done_wrap span, .done .form3_wrap span, .done .done_wrap span{
+		font-size: 21px;
+		line-height: 26px;
+	}
+	#form3 .form3_wrap input, #form3 .done_wrap input, .done .form3_wrap input, .done .done_wrap input{
+		width: 270px;
+	}
+	#form3 .form3_wrap .but_popup, #form3 .done_wrap .but_popup, .done .form3_wrap .but_popup, .done .done_wrap .but_popup{
+		width: 270px;
+	}
+
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.menu{
+
+		display: block !important
+	}
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

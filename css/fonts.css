@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "impact";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/impact/impact.eot@#iefix") format("embedded-opentype"), url("../fonts/impact/impact.woff") format("woff"), url("../fonts/impact/impact.ttf") format("truetype"); }
+@font-face {
+  font-family: "opensansbold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/opensansbold/opensansbold.eot@#iefix") format("embedded-opentype"), url("../fonts/opensansbold/opensansbold.woff") format("woff"), url("../fonts/opensansbold/opensansbold.ttf") format("truetype"); }
+@font-face {
+  font-family: "opensanslight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/opensanslight/opensanslight.eot@#iefix") format("embedded-opentype"), url("../fonts/opensanslight/opensanslight.woff") format("woff"), url("../fonts/opensanslight/opensanslight.ttf") format("truetype"); }
+@font-face {
+  font-family: "opensansregular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/opensansregular/opensansregular.eot@#iefix") format("embedded-opentype"), url("../fonts/opensansregular/opensansregular.woff") format("woff"), url("../fonts/opensansregular/opensansregular.ttf") format("truetype"); }
+@font-face {
+  font-family: "opensanssemibold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/opensanssemibold/opensanssemibold.eot@#iefix") format("embedded-opentype"), url("../fonts/opensanssemibold/opensanssemibold.woff") format("woff"), url("../fonts/opensanssemibold/opensanssemibold.ttf") format("truetype"); }
+
+/*# sourceMappingURL=fonts.css.map */
